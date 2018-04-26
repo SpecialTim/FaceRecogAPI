@@ -4,15 +4,18 @@
   "description": "API designed to interface with ButterBot to provide basic face recognition",
   "main": "FaceRecogServer.js",
   "dependencies": {
+    "base64-to-image": "^1.0.2",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "face-recognition": "^0.9.0",
+    "http": "0.0.0",
+    "net": "^1.0.2",
     "opencv4nodejs": "^4.3.0",
     "socket.io": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon FaceRecognition.js"
   },
   "author": "Timothy Thibodaux",
   "license": "ISC"
